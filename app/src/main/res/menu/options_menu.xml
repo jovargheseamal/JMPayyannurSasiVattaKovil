@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/s1"
+
+        android:orderInCategory="1"
+
+        android:title="Search" />
+    <item
+        android:id="@+id/s2"
+        android:orderInCategory="2"
+
+        android:title="Settings" />
+
+
+    <item
+        android:id="@+id/s3"
+
+        android:orderInCategory="3"
+        android:title="Log In">
+
+    </item>
+
+</menu>

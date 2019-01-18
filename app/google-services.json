@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75070345501",
+    "firebase_url": "https://jmpayyannur.firebaseio.com",
+    "project_id": "jmpayyannur",
+    "storage_bucket": "jmpayyannur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75070345501:android:f73719063bff5634",
+        "android_client_info": {
+          "package_name": "com.ciatlab.jmpayyannursasivattakovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75070345501-n6s1ngd7fkafd7n6eu85ricet5244eq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFXdxKuvY_jDaJr608PiyZRHTcFCqK8rE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

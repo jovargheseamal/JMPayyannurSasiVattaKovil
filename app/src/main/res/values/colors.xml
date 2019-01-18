@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ffe788</color>
+    <color name="colorAccent">#00acc1</color>
+    <color name="toolbar">#00acc1</color>
+    <color name="tabcolor">#ffa726</color>
+    <color name="texttitle">#e1f5fe</color>
+    <color name="button">#80171616</color>
+    <color name="layout">#BDBDBD</color>
+    <color name="txt2">#212121</color>
+    <color name="border">#66007c91</color>
+    <color name="backgrnd">#dcd9da</color>
+    <color name="Hint">#FF0000</color>
+
+
+
+</resources>

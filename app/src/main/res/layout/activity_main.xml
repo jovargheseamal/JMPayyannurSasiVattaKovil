@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern"
+
+    tools:context="com.ciatlab.jmpayyannursasivattakovil.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#90000000"
+        android:elevation="6dp"
+        android:minHeight="50dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JanaMythri"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/linear1"
+        android:background="#B0BEC5"
+
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:cardElevation="10dp"
+            android:background="#B0BEC5"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp">
+            <android.support.v4.view.ViewPager android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/linear1"
+        android:id="@+id/L2"
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+
+            android:orientation="vertical"
+            android:id="@+id/lin1">
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="5dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_below="@+id/lin1"
+            android:layout_above="@+id/abc"
+            android:id="@+id/grid"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+
+                        android:layout_weight="1">
+
+
+
+
+                        <FrameLayout
+                            android:layout_width="90dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="20dp"
+
+                            android:clickable="true"
+
+                            android:id="@+id/comp">
+
+                            <ImageView
+                                android:id="@+id/compimg"
+                                android:layout_width="90dp"
+                                android:layout_height="100dp"
+                                android:background="@android:color/transparent"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/clipboards"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Complaints"
+                                android:textSize="15dp"
+                                android:id="@+id/comptxt"
+                                android:textColor="#ffffff"
+                                android:layout_gravity="bottom|center_horizontal"/>
+
+
+
+                        </FrameLayout>
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:layout_width="90dp"
+                            android:layout_height="100dp"
+                            android:layout_marginBottom="20dp"
+                            android:clickable="true"
+
+                            >
+
+                            <ImageView
+
+                                android:layout_width="90dp"
+                                android:layout_height="100dp"
+                                android:background="@android:color/transparent"
+                                android:id="@+id/eventimg"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/checklist"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/eventtxt"
+                                android:text="Events"
+                                android:textSize="15dp"
+                                android:textColor="#ffffff"
+                                android:layout_gravity="bottom|center_horizontal"/>
+
+
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:layout_weight="1">
+                        <FrameLayout
+                            android:layout_width="90dp"
+                            android:layout_height="100dp"
+                            android:clickable="true"
+                            android:layout_marginBottom="20dp"
+
+
+                            >
+
+                            <ImageView
+
+                                android:layout_width="90dp"
+                                android:layout_height="100dp"
+                                android:background="@android:color/transparent"
+                                android:id="@+id/notfyimg"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/notification"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/notfytxt"
+                                android:text="Notifications"
+                                android:textSize="15dp"
+                                android:textColor="#ffffff"
+                                android:layout_gravity="bottom|center_horizontal"/>
+
+
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/abc"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:layout_height="40dp">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
